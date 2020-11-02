@@ -1,0 +1,30 @@
+{
+    "name": "kmvan/php-http-status",
+    "description": "A package for easy get http status code.",
+    "type": "library",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/kmvan/php-http-status",
+    "authors": [
+        {
+            "name": "Km.Van",
+            "email": "kmvan.com@gmail.com",
+            "homepage": "https://inn-studio.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Kmvan\\HttpStatus\\" : "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/kmvan/php-http-status/issues",
+        "source": "https://github.com/kmvan/php-http-status"
+    }
+}
