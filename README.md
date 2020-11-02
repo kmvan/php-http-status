@@ -4,7 +4,7 @@
 
 ## Install
 
-- `$ composer require kmvan/http-status`
+- `$ composer require kmvan/php-http-status`
 
 ## Usage
 
